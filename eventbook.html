@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel of Happiness</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Shippori+Antique&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shippori+Antique&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <!--==================================================-->
+	<!----- Start repeat navi footer Script----->
+	<!--==================================================-->
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+
+	<script type="text/javascript" >
+		//<!-- start navigation -->
+		$.get("nav.html", function(data){
+			$("#navigation").replaceWith(data);
+		});
+
+		// <!-- start footer -->
+		$.get("footer.html", function(data){
+			$("#footer").replaceWith(data);
+		});
+		
+	</script>
+<!--==================================================-->
+	<!----- Start Navigation Area ----->
+	<!--==================================================-->
+	
+	<div id="navigation"></div>
+
+	<!--==================================================-->
+	<!----- End Navigation Area ----->
+	<!--==================================================-->
+
+<!--banner -->
+<div class="jumbotrons">
+  <h1 class="headtext" align="center">Book an Event</span></h1>
+</div>
+    
+<!-- form to book -->
+<div class="card-text container my-5">
+    <div class="card">
+      <div class="card-body">
+       
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="first-name">First Name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="First Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="last-name">Last Name</label>
+              <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Gender:</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="gender" id="male" value="male">
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="gender" id="female" value="female">
+              <label class="form-check-label" for="female">Female</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="first-name">Email Address :</label>
+            <input type="text" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="form-group">
+           
+            <div class="form-group">
+              <label> Event Type:</label><br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="Standard Room" id="Standard Room" value="Standard Room">
+                <label class="form-check-label" for="male">Anniversary Event</label>
+              </div> 
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="Deluxe Room" id="Deluxe Room" value="Deluxe Room">
+                <label class="form-check-label" for="Deluxe Room">Family Event</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="Standard Room" id="Standard Room" value="Standard Room">
+                <label class="form-check-label" for="male">Other events</label>  
+              </div> 
+              <div class="form-check form-check-inline">
+                <input type="text" class="form-control" id="email" placeholder="Type other Events here">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="number-of-rooms">Number Of People</label>
+            <input type="number" class="form-control" id="number-of-rooms" min="1" max="10">
+          </div>
+          <div class="form-group">
+            <label>Purpose:</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="purpose" id="business" value="business">
+              <label class="form-check-label" for="business">Business</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="purpose" id="official" value="official">
+              <label class="form-check-label" for="official">Official</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="purpose" id="vacation" value="vacation">
+              <label class="form-check-label" for="vacation">Vacation</label>
+            </div>
+          </div>
+         
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="date">Date :</label>
+              <input type="date" class="form-control" id="date">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="time">Time :</label>
+              <input type="time" class="form-control" id="time">
+            </div>
+          </div>
+  
+          <div class="text-center">
+            <button type="submit" class="card-text btn btn-warning">Submit</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+    
+    
+    <!--==================================================-->
+	<!----- Start Footer Middle Area ----->
+	<!--==================================================-->
+	
+	<div id="footer"></div>
+
+	<!--==================================================-->
+	<!----- End Footer Middle Area ----->
+	<!--==================================================-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

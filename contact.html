@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel of Happiness</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Shippori+Antique&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shippori+Antique&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+    <!-- Fixed Navigation -->
+   <!--==================================================-->
+	<!----- Start repeat navi footer Script----->
+	<!--==================================================-->
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+
+	<script type="text/javascript" >
+		//<!-- start navigation -->
+		$.get("nav.html", function(data){
+			$("#navigation").replaceWith(data);
+		});
+
+		// <!-- start footer -->
+		$.get("footer.html", function(data){
+			$("#footer").replaceWith(data);
+		});
+		
+	</script>
+
+
+	<!--==================================================-->
+	<!----- End repeat navi footer Script----->
+	<!--==================================================-->
+
+  <!--==================================================-->
+	<!----- Start Navigation Area ----->
+	<!--==================================================-->
+	
+	<div id="navigation"></div>
+
+	<!--==================================================-->
+	<!----- End Navigation Area ----->
+	<!--==================================================-->
+
+    <!-- Banner -->
+    <div class="jumbotrons">
+        <h3><span class="wlctext1" style="color:white">Contact Us</span></h3>
+    </div>
+
+    <!-- Contact page -->
+    <div class="container mt-5">
+        <div class="row my-5">
+            <div class="col-md-7">
+                <p class="card-text"><img id="icon" src="./assets/icons/location.png" alt=""> Drame lam, Khurthang, Phunakha.</p>
+                <p class="card-text"><img id="icon" src="./assets/icons/phone.png" alt="">  +975 17820378</p>
+                <p class="card-text"><img id="icon" src="./assets/icons/mail.png" alt="">  <a href="mailto:hotelkhuruu@gmail.com">hotelkhuruu@gmail.com</a></p>
+                <p class="card-text"><img id="icon" src="./assets/icons/telephone.png" alt=""> 02 584888</p>
+                <div class="social-icons">
+                    <a href="#"><img id="icon" src="./assets/icons/facebook-circular-logo.png" alt="Facebook"></a>&nbsp;
+                    <a href="#"><img id="icon" src="./assets/icons/whatsapp.png" alt="Whatsapp"></a>&nbsp;
+                    <a href="#"><img id="icon" src="./assets/icons/tripadvisor.png" alt="Tripadvisor"></a>&nbsp;
+                    <a href="#"><img id="icon" src="./assets/icons/book.png" alt="Booking.com"></a>
+                </div>
+            </div>
+    
+                <img  src="./assets/image/IMG_1888.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="300" loading="lazy">
+        
+        </div>
+        
+        <div class="my-4">
+            <hr>
+        </div>
+        <h2 class="subtext text-center my-5">Your feedback is valuable to us.</h2>
+        <div class="card-text card my-5">
+            <div class="card-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="first-name">First name</label>
+                            <input type="text" class="form-control" id="first-name" placeholder="First name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="last-name">Last name</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <input type="text" class="form-control" id="message" placeholder="Message">
+                    </div>
+                    <p>If you have specific feedback, please let us know below.</p>
+                    <div class="form-group">
+                        <label for="feedback">Feedback</label>
+                        <textarea class="form-control" id="feedback" rows="4" maxlength="225" placeholder="Your feedback"></textarea>
+                        <small id="charCount" class="form-text text-muted">0 / 225</small>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="card-text btn btn-warning">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <p class="card-text my-4 pb-5">Thank you for taking the time to share your feedback with us. We appreciate you bringing this to our attention, and we are sorry to hear you were disappointed with your stay. At our hotel, it is our goal to provide a comfortable and convenient experience for every guest.</p>
+    </div>
+ <!--==================================================-->
+	<!----- Start Footer Middle Area ----->
+	<!--==================================================-->
+	
+	<div id="footer"></div>
+
+	<!--==================================================-->
+	<!----- End Footer Middle Area ----->
+	<!--==================================================-->
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+      document.getElementById('feedback').addEventListener('input', function () {
+        var charCount = this.value.length;
+        document.getElementById('charCount').innerText = charCount + ' / 225';
+      });
+    </script>
+
+   
+    
+</body>
+</html>

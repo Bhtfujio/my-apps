@@ -1,0 +1,339 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+      background-color: rgb(255, 255, 255);
+      padding-top: 56px; /* To ensure content doesn't go under the fixed navbar */
+  }
+  
+  #logo{
+      width: 7rem;
+  }
+  
+  
+  .navbar{
+      background-color:#DA622F;
+      
+  }
+  
+  ul.navbar-nav li{
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+  ul.navbar-nav li:hover{
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+      
+  }
+  
+   /* Custom CSS */
+  
+  .jumbotron {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/IMG_1885.jpeg');
+      background-size:cover;
+      background-position:center;
+      color: white;
+      height: 60vh;
+      width: 100%;
+      display: flex;
+      align-items:last baseline;
+      justify-content:left;
+      font-size: 3.5em;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+      padding-left:15%;
+      padding-bottom: 4%;
+      
+    }
+
+    .jumbotrons {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/photo-20232.jpg');
+      background-size:cover;
+      background-position:center;
+      height: 50vh;
+      width: 100%;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+      
+      
+    }
+
+    .jumbotronss {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/premium-room.jpg');
+      background-size:cover;
+      background-position:center;
+      height: 40vh;
+      width: 10;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+      
+      
+    }
+    .event{
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/event.png');
+      background-size:cover;
+      background-position:center;
+      height: 50vh;
+      width: 100%;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+      
+      
+    }
+  
+  .wlcbtn{
+  background-color:goldenrod;
+  
+  }  
+  
+  .btn a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .wlcbtn a:hover{
+    font-size:102%;
+  }
+  
+  .wlctext{
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .wlctext1{
+    font-family: "Eczar", serif;
+  font-size: 48px;
+  font-weight:500;
+  font-style: normal;
+  color: goldenrod;
+  
+    
+  }
+  .wlcbtn{
+      font-size:x-large;
+      font-weight: bolder;
+  }
+  .headtext{
+    font-family: "Eczar", serif;
+    font-size: 50px;
+    font-weight:500;
+    font-style: normal;
+    color: goldenrod;
+    
+    
+  }
+  .subtext{
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  color:goldenrod;
+    
+  }
+  
+  
+  /* testimonial */
+    .testimonials {
+      
+      background-color: #f4f0e9;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    
+    .testimonials h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    .testimonial-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    
+    .testimonial {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 30%;
+      min-width: 250px;
+      text-align: left;
+    }
+    
+    
+    .stars {
+      color: #ffcc00;
+      font-size: 1.2em;
+    }
+   
+   .card{
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+  
+  
+  .card-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: gray;
+  }
+ 
+  #icon{
+    width: 35px;
+  }
+
+
+  .custom-icon {
+      font-size: 3em;
+      color: #FF6347;
+  }
+  .rating{
+      /* margin: 4px; */
+      
+      padding: 4px;
+      background-color: #f4f0e9;;
+  }
+  
+  small{
+     float: right;
+  }
+  
+  .testimonial {
+      font-style: italic;
+  }
+
+/* about us */
+.about-us {
+  text-align: center;
+  margin: 20px 0;
+}
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.hotel-representatives {
+  text-align: center;
+  margin: 20px 0;
+}
+.representative-card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.representative-img {
+  background-color: #e9ecef;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.representative{
+  align-items: center;
+}
+
+.continfo{
+  text-align: left;
+}
+
+  /* footer */
+
+
+  .footer {
+      background-color: #cc592e;
+      color: #000;
+      padding: 20px 0;
+      text-align: left;
+    }
+    
+    .footer-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .footer-column {
+      flex: 1;
+      margin: 0 20px;
+    }
+    
+    .footer-column h3, .footer-column h4 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    
+    .footer-column p, .footer-column a {
+      font-size: 1em;
+      margin: 5px 0;
+      color: #000;
+      text-decoration: none;
+    }
+    
+    .footer-column a:hover {
+      text-decoration: underline;
+    }
+    
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .footer-column ul li {
+      margin: 10px 0;
+    }
+    
+    .footer-column ul li a {
+      color: #000;
+      text-decoration: none;
+    }
+    
+    .footer-column ul li a:hover {
+      text-decoration: underline;
+    }
+    
+    .footer-column ul.social-media {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-column ul.social-media li {
+      display: flex;
+      align-items: center;
+    }
+    
+    .footer-column ul.social-media li a {
+      display: flex;
+      align-items: center;
+    }
+    
+    .footer-column ul.social-media li img {
+      margin-right: 10px;
+      width: 24px;
+      height: 24px;
+    }
+    .whatsapp-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #dc655d;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+  }
